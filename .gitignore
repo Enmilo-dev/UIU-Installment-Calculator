@@ -1,32 +1,99 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
+# C++ objects and libs
 *.slo
 *.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
 
-# Executables
+# Qt-specific
+*.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+build/
+cmake-build-*/
+
+# IDE specific (CLion)
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+.clion*
+
+# Visual Studio specific
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Qt Creator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Ninja
+.ninja_deps
+.ninja_log
+*.ninja
+
+# Compiled binaries
 *.exe
 *.out
 *.app
+
+# Generated files
+UIU_Installment_Calculator_autogen/
